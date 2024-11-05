@@ -1,0 +1,32 @@
+# Build output
+telegram-bot
+
+# Docker
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.log
+docker-compose.override.yml
+.dockerignore
+
+# Go build artifacts
+*.exe
+*.out
+*.test
+*.prof
+*.coverage
+
+# Environment variables
+.env
+
+# Editor-specific files
+*.swp
+*.swo
+*.DS_Store
+.vscode/
+.idea/
+*.iml
+
+# Dependency directories
+/vendor/
